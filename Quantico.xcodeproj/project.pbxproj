@@ -14,6 +14,7 @@
 		1A3ACD662C10659400C1CC43 /* QuanticoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD652C10659400C1CC43 /* QuanticoTests.swift */; };
 		1A3ACD702C10659400C1CC43 /* QuanticoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD6F2C10659400C1CC43 /* QuanticoUITests.swift */; };
 		1A3ACD722C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD712C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift */; };
+		1A3ACD7F2C10690000C1CC43 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD7E2C10690000C1CC43 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		1A3ACD6B2C10659400C1CC43 /* QuanticoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuanticoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3ACD6F2C10659400C1CC43 /* QuanticoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanticoUITests.swift; sourceTree = "<group>"; };
 		1A3ACD712C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanticoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A3ACD7E2C10690000C1CC43 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		1A3ACD522C10659100C1CC43 /* Quantico */ = {
 			isa = PBXGroup;
 			children = (
+				1A3ACD802C106A2000C1CC43 /* Model */,
 				1A3ACD532C10659100C1CC43 /* QuanticoApp.swift */,
 				1A3ACD552C10659100C1CC43 /* ContentView.swift */,
 				1A3ACD572C10659400C1CC43 /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				1A3ACD712C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift */,
 			);
 			path = QuanticoUITests;
+			sourceTree = "<group>";
+		};
+		1A3ACD802C106A2000C1CC43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A3ACD7E2C10690000C1CC43 /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A3ACD562C10659100C1CC43 /* ContentView.swift in Sources */,
+				1A3ACD7F2C10690000C1CC43 /* Item.swift in Sources */,
 				1A3ACD542C10659100C1CC43 /* QuanticoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
