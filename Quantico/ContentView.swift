@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var isRotationEnabled: Bool = true
+    @State private var isRotationEnabled: Bool = false
     @State private var showsIndicator: Bool = false
     
     var body: some View {
@@ -26,10 +26,10 @@ struct ContentView: View {
                                     .frame(width: size.width)
                                     .visualEffect { content, geometryProxy in
                                         content
-                                            .scaleEffect(scale(geometryProxy, scale: 0.1), anchor: .trailing)
+                                            .scaleEffect(scale(geometryProxy, scale: 0.04), anchor: .trailing)
                                             .rotationEffect(rotation(geometryProxy, rotatin: isRotationEnabled ? 5 : 0))
                                             .offset(x: minX(geometryProxy))
-                                            .offset(x: excessMinX(geometryProxy, offset: isRotationEnabled ? 8 : 10))
+                                            .offset(x: excessMinX(geometryProxy, offset: isRotationEnabled ? 8 : size.width - 160))
                                     }
                                     .zIndex(items.zIndex(item))
                             }
@@ -64,7 +64,7 @@ struct ContentView: View {
     /// Stacked Cards Animation
     func minX(_ proxy: GeometryProxy) -> CGFloat {
         let minX = proxy.frame(in: .scrollView(axis: .horizontal)).minX
-        return minX < 0 ? 0 : -minX
+        return -minX
     }
     
     func progress(_ proxy: GeometryProxy, limit: CGFloat = 2) -> CGFloat {

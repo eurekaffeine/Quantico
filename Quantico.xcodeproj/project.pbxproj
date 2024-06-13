@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A341CE32C199DA500216C99 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CE22C199DA500216C99 /* FooterView.swift */; };
+		1A341CFE2C19A1F200216C99 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CE82C19A1F200216C99 /* AsyncImageView.swift */; };
+		1A341CFF2C19A1F200216C99 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CE92C19A1F200216C99 /* CachedAsyncImage.swift */; };
+		1A341D002C19A1F200216C99 /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CEA2C19A1F200216C99 /* StrokeView.swift */; };
+		1A341D012C19A1F200216C99 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CEC2C19A1F200216C99 /* AlertView.swift */; };
+		1A341D022C19A1F200216C99 /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CED2C19A1F200216C99 /* SAButton.swift */; };
+		1A341D032C19A1F200216C99 /* SAToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CEE2C19A1F200216C99 /* SAToggle.swift */; };
+		1A341D042C19A1F200216C99 /* DesignTokenPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF02C19A1F200216C99 /* DesignTokenPreview.swift */; };
+		1A341D052C19A1F200216C99 /* GlobalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF12C19A1F200216C99 /* GlobalColor.swift */; };
+		1A341D062C19A1F200216C99 /* GlobalColor+ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF22C19A1F200216C99 /* GlobalColor+ColorExtension.swift */; };
+		1A341D072C19A1F200216C99 /* SAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF32C19A1F200216C99 /* SAColor.swift */; };
+		1A341D082C19A1F200216C99 /* SAFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF42C19A1F200216C99 /* SAFont.swift */; };
+		1A341D092C19A1F200216C99 /* SALayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF52C19A1F200216C99 /* SALayout.swift */; };
+		1A341D0A2C19A1F200216C99 /* SAOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF62C19A1F200216C99 /* SAOverlayView.swift */; };
+		1A341D0B2C19A1F200216C99 /* SATheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF72C19A1F200216C99 /* SATheme.swift */; };
+		1A341D0C2C19A1F200216C99 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CF92C19A1F200216C99 /* CGRect+Extension.swift */; };
+		1A341D0D2C19A1F200216C99 /* TypeAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CFA2C19A1F200216C99 /* TypeAlignment.swift */; };
+		1A341D0E2C19A1F200216C99 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341CFB2C19A1F200216C99 /* View+Extension.swift */; };
+		1A341D102C19A25C00216C99 /* ObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341D0F2C19A25C00216C99 /* ObserverModifier.swift */; };
+		1A341D122C19A29400216C99 /* GoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A341D112C19A29400216C99 /* GoldView.swift */; };
 		1A3ACD542C10659100C1CC43 /* QuanticoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD532C10659100C1CC43 /* QuanticoApp.swift */; };
 		1A3ACD562C10659100C1CC43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD552C10659100C1CC43 /* ContentView.swift */; };
 		1A3ACD582C10659400C1CC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3ACD572C10659400C1CC43 /* Assets.xcassets */; };
@@ -15,6 +35,7 @@
 		1A3ACD702C10659400C1CC43 /* QuanticoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD6F2C10659400C1CC43 /* QuanticoUITests.swift */; };
 		1A3ACD722C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD712C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift */; };
 		1A3ACD7F2C10690000C1CC43 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ACD7E2C10690000C1CC43 /* Item.swift */; };
+		1A7B8BDA2C12B235007075BF /* CardCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7B8BD92C12B235007075BF /* CardCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A341CE22C199DA500216C99 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		1A341CE82C19A1F200216C99 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		1A341CE92C19A1F200216C99 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		1A341CEA2C19A1F200216C99 /* StrokeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
+		1A341CEC2C19A1F200216C99 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		1A341CED2C19A1F200216C99 /* SAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		1A341CEE2C19A1F200216C99 /* SAToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAToggle.swift; sourceTree = "<group>"; };
+		1A341CF02C19A1F200216C99 /* DesignTokenPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTokenPreview.swift; sourceTree = "<group>"; };
+		1A341CF12C19A1F200216C99 /* GlobalColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalColor.swift; sourceTree = "<group>"; };
+		1A341CF22C19A1F200216C99 /* GlobalColor+ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GlobalColor+ColorExtension.swift"; sourceTree = "<group>"; };
+		1A341CF32C19A1F200216C99 /* SAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAColor.swift; sourceTree = "<group>"; };
+		1A341CF42C19A1F200216C99 /* SAFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAFont.swift; sourceTree = "<group>"; };
+		1A341CF52C19A1F200216C99 /* SALayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SALayout.swift; sourceTree = "<group>"; };
+		1A341CF62C19A1F200216C99 /* SAOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAOverlayView.swift; sourceTree = "<group>"; };
+		1A341CF72C19A1F200216C99 /* SATheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATheme.swift; sourceTree = "<group>"; };
+		1A341CF92C19A1F200216C99 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		1A341CFA2C19A1F200216C99 /* TypeAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAlignment.swift; sourceTree = "<group>"; };
+		1A341CFB2C19A1F200216C99 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		1A341D0F2C19A25C00216C99 /* ObserverModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverModifier.swift; sourceTree = "<group>"; };
+		1A341D112C19A29400216C99 /* GoldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldView.swift; sourceTree = "<group>"; };
 		1A3ACD502C10659100C1CC43 /* Quantico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3ACD532C10659100C1CC43 /* QuanticoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanticoApp.swift; sourceTree = "<group>"; };
 		1A3ACD552C10659100C1CC43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +88,7 @@
 		1A3ACD6F2C10659400C1CC43 /* QuanticoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanticoUITests.swift; sourceTree = "<group>"; };
 		1A3ACD712C10659400C1CC43 /* QuanticoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanticoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A3ACD7E2C10690000C1CC43 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1A7B8BD92C12B235007075BF /* CardCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +116,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A341CEB2C19A1F200216C99 /* BasicViews */ = {
+			isa = PBXGroup;
+			children = (
+				1A341CE82C19A1F200216C99 /* AsyncImageView.swift */,
+				1A341CE92C19A1F200216C99 /* CachedAsyncImage.swift */,
+				1A341CEA2C19A1F200216C99 /* StrokeView.swift */,
+				1A341D112C19A29400216C99 /* GoldView.swift */,
+			);
+			path = BasicViews;
+			sourceTree = "<group>";
+		};
+		1A341CEF2C19A1F200216C99 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1A341CEC2C19A1F200216C99 /* AlertView.swift */,
+				1A341CED2C19A1F200216C99 /* SAButton.swift */,
+				1A341CEE2C19A1F200216C99 /* SAToggle.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1A341CF82C19A1F200216C99 /* DesignToken */ = {
+			isa = PBXGroup;
+			children = (
+				1A341CF02C19A1F200216C99 /* DesignTokenPreview.swift */,
+				1A341CF12C19A1F200216C99 /* GlobalColor.swift */,
+				1A341CF22C19A1F200216C99 /* GlobalColor+ColorExtension.swift */,
+				1A341CF32C19A1F200216C99 /* SAColor.swift */,
+				1A341CF42C19A1F200216C99 /* SAFont.swift */,
+				1A341CF52C19A1F200216C99 /* SALayout.swift */,
+				1A341CF62C19A1F200216C99 /* SAOverlayView.swift */,
+				1A341CF72C19A1F200216C99 /* SATheme.swift */,
+			);
+			path = DesignToken;
+			sourceTree = "<group>";
+		};
+		1A341CFC2C19A1F200216C99 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1A341CF92C19A1F200216C99 /* CGRect+Extension.swift */,
+				1A341CFA2C19A1F200216C99 /* TypeAlignment.swift */,
+				1A341CFB2C19A1F200216C99 /* View+Extension.swift */,
+				1A341D0F2C19A25C00216C99 /* ObserverModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		1A341CFD2C19A1F200216C99 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1A341CEB2C19A1F200216C99 /* BasicViews */,
+				1A341CEF2C19A1F200216C99 /* Component */,
+				1A341CF82C19A1F200216C99 /* DesignToken */,
+				1A341CFC2C19A1F200216C99 /* ViewModifiers */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
 		1A3ACD472C10659100C1CC43 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +197,15 @@
 		1A3ACD522C10659100C1CC43 /* Quantico */ = {
 			isa = PBXGroup;
 			children = (
+				1A341CFD2C19A1F200216C99 /* DesignSystem */,
 				1A3ACD802C106A2000C1CC43 /* Model */,
 				1A3ACD532C10659100C1CC43 /* QuanticoApp.swift */,
 				1A3ACD552C10659100C1CC43 /* ContentView.swift */,
 				1A3ACD572C10659400C1CC43 /* Assets.xcassets */,
 				1A3ACD592C10659400C1CC43 /* Quantico.entitlements */,
 				1A3ACD5A2C10659400C1CC43 /* Preview Content */,
+				1A7B8BD92C12B235007075BF /* CardCarouselView.swift */,
+				1A341CE22C199DA500216C99 /* FooterView.swift */,
 			);
 			path = Quantico;
 			sourceTree = "<group>";
@@ -270,9 +373,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A341D0D2C19A1F200216C99 /* TypeAlignment.swift in Sources */,
+				1A341D102C19A25C00216C99 /* ObserverModifier.swift in Sources */,
+				1A7B8BDA2C12B235007075BF /* CardCarouselView.swift in Sources */,
 				1A3ACD562C10659100C1CC43 /* ContentView.swift in Sources */,
+				1A341D082C19A1F200216C99 /* SAFont.swift in Sources */,
+				1A341D0A2C19A1F200216C99 /* SAOverlayView.swift in Sources */,
+				1A341D012C19A1F200216C99 /* AlertView.swift in Sources */,
 				1A3ACD7F2C10690000C1CC43 /* Item.swift in Sources */,
+				1A341D072C19A1F200216C99 /* SAColor.swift in Sources */,
+				1A341D092C19A1F200216C99 /* SALayout.swift in Sources */,
+				1A341D122C19A29400216C99 /* GoldView.swift in Sources */,
+				1A341CE32C199DA500216C99 /* FooterView.swift in Sources */,
+				1A341D0C2C19A1F200216C99 /* CGRect+Extension.swift in Sources */,
+				1A341D032C19A1F200216C99 /* SAToggle.swift in Sources */,
 				1A3ACD542C10659100C1CC43 /* QuanticoApp.swift in Sources */,
+				1A341CFF2C19A1F200216C99 /* CachedAsyncImage.swift in Sources */,
+				1A341D042C19A1F200216C99 /* DesignTokenPreview.swift in Sources */,
+				1A341D002C19A1F200216C99 /* StrokeView.swift in Sources */,
+				1A341D0B2C19A1F200216C99 /* SATheme.swift in Sources */,
+				1A341D062C19A1F200216C99 /* GlobalColor+ColorExtension.swift in Sources */,
+				1A341D0E2C19A1F200216C99 /* View+Extension.swift in Sources */,
+				1A341D052C19A1F200216C99 /* GlobalColor.swift in Sources */,
+				1A341CFE2C19A1F200216C99 /* AsyncImageView.swift in Sources */,
+				1A341D022C19A1F200216C99 /* SAButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +570,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -484,7 +608,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
